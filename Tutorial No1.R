@@ -25,4 +25,4 @@ df
 names(df)<-c('Name','Position','Age')
 df
 
-subset(df, subset = Age > 30)
+subset(df, subset = Age <= 30)
